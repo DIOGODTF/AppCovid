@@ -220,14 +220,14 @@ export default class covidTable extends Component {
                 </table>
                 <div>
                     <br></br>
-                    <h2><strong>Estatisticas</strong></h2>
-                    <h4>Media de idade das pessoas que tiveram covid:{this.state.mediaIdadePessoasCovidSim}</h4>
-                    <h4>Media de idade das pessoas que não tiveram covid:{this.state.mediaIdadePessoasCovidNao}</h4>
-                    <h4>Idade da pessoa mais jovem que tomou as 3 doses da vacina:{this.state.IdadePessoaMaisJovemDose3}</h4>
-                    <h4>Idade da pessoa mais velha que tomou as 3 doses da vacina:{this.state.IdadePessoaMaisVelhaDose3}</h4>
-                    <h4>Porcentagem de pessoas que tiveram covid sem tomar nenhuma dose da vacina:{this.state.PessoasTestadasPosDose0} %</h4>
-                    <h4>Porcentagem de pessoas que tiveram covid tomando as 3 doses da vacina:{this.state.PessoasTestadasPosDose3} %</h4>
-                    <h4>Media de doses por pessoas:{this.state.MediaDosePessoas}</h4>
+                    <h2><strong>Estatísticas</strong></h2>
+                    <h4>Média de idade das pessoas que tiveram covid: <strong>{this.state.mediaIdadePessoasCovidSim}</strong></h4>
+                    <h4>Média de idade das pessoas que não tiveram covid: <strong>{this.state.mediaIdadePessoasCovidNao}</strong></h4>
+                    <h4>Idade da pessoa mais jovem que tomou as 3 doses da vacina: <strong>{this.state.IdadePessoaMaisJovemDose3}</strong> </h4>
+                    <h4>Idade da pessoa mais velha que tomou as 3 doses da vacina: <strong>{this.state.IdadePessoaMaisVelhaDose3}</strong></h4>
+                    <h4>Porcentagem de pessoas que tiveram covid sem tomar nenhuma dose da vacina: <strong>{this.state.PessoasTestadasPosDose0}</strong> %</h4>
+                    <h4>Porcentagem de pessoas que tiveram covid tomando as 3 doses da vacina: <strong>{this.state.PessoasTestadasPosDose3}</strong> %</h4>
+                    <h4>Média de doses por pessoas: <strong>{this.state.MediaDosePessoas}</strong></h4>
                 </div>
             </div>
         )
