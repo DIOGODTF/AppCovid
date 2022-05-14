@@ -220,7 +220,7 @@ export default class covidTable extends Component {
                 </table>
                 <div>
                     <br></br>
-                    <h3>Estatisticas</h3>
+                    <h2><strong>Estatisticas</strong></h2>
                     <h4>Media de idade das pessoas que tiveram covid:{this.state.mediaIdadePessoasCovidSim}</h4>
                     <h4>Media de idade das pessoas que não tiveram covid:{this.state.mediaIdadePessoasCovidNao}</h4>
                     <h4>Idade da pessoa mais jovem que tomou as 3 doses da vacina:{this.state.IdadePessoaMaisJovemDose3}</h4>
